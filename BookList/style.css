@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img.jpg);
+    background-size: cover;
+
+}
+
+.line {
+    width: 100%;
+    border: 2px solid rgb(84, 6, 11);
+    ;
+}
+
+#book-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: 0;
+}
+
+.form-group {
+    margin-block: 20px;
+
+}
+
+.btn {
+
+    width: 90px;
+    height: 30px;
+    background-color: rgb(84, 6, 11);
+    color: white;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+
+/* CSS for the table */
+.table-text {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+/* CSS for table headers */
+.table-text thead th {
+    background-color: transparent;
+    /* background-color: #f2f2f2; */
+    border: 2px solid black;
+    color: #333333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #dddddd;
+}
+
+/* CSS for table rows */
+.table-text tbody tr {
+    border-bottom: 1px solid #dddddd;
+    border: 2px solid black;
+    /* background-color: #f9f9f9; */
+    background-color: transparent;
+
+
+}
+
+/* CSS for alternating row colors */
+.table-text tbody tr:nth-child(even) {
+    /* background-color: #f9f9f9; */
+    background-color: transparent;
+
+
+}
+
+/* CSS for table data cells */
+.table-text tbody td {
+    padding: 10px;
+    vertical-align: top;
+    border: 2px solid black;
+
+}
+
+/* CSS for the last column */
+.table-text tbody td:last-child {
+    text-align: center;
+}
+
+.delete {
+    background-color: red;
+    font-weight: 700;
+    font-size: 32px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.alert-success {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: green;
+    margin-left: 30px;
+}
+
+.alert-danger {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+}
